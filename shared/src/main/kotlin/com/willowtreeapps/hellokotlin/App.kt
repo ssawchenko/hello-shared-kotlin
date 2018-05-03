@@ -1,5 +1,12 @@
 package com.willowtreeapps.hellokotlin
 
+import com.google.gson.Gson
+import com.google.gson.JsonObject
+import com.google.gson.reflect.TypeToken
+
+
+
+
 class AppStore(db: Database) : SimpleStore<AppState>(AppState()) {
     private val dispatcher = Dispatcher.forStore(this, ::reduce)
             .chain(DbMiddleware(db, this))
@@ -55,6 +62,20 @@ fun move(action: Action.Move, state: AppState) = state.copy(todos = state.todos.
 fun check(action: Action.Check, state: AppState) = state.copy(todos = state.todos.replace(action.index) { it.copy(done = !it.done) })
 
 fun edit(action: Action.Edit, state: AppState) = state.copy(todos = state.todos.replace(action.index) { it.copy(text = action.text) })
+
+fun parseMessage(objects: Array<Any>) {
+    // Could switch event here to provide proper parsing.
+    // For now pull out user
+
+    parseUsers(objects)
+}
+
+private fun parseUsers(objects: Array<Any>) {
+    val data = objects[0] as JsonObject
+    val type = object : TypeToken<Array<String>>() {}.type
+    val gson = Gson()
+    var yourList = gson.fromJson<Array<String>>(data, type)
+}
 
 private fun <T> Collection<T>.move(oldIndex: Int, newIndex: Int): List<T> = toMutableList().apply {
     val value = removeAt(oldIndex)

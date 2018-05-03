@@ -9,7 +9,7 @@
 import UIKit
 import KotlinHello
 
-class ViewController: UIViewController, KotlinHelloSimpleStoreListener {
+class ViewController: UIViewController, KotlinHelloSimpleStoreListener, UIAlertViewDelegate {
     @IBOutlet var todos: UITableView!
     @IBOutlet var add: UIButton!
     @IBOutlet weak var countLabel: UILabel!
@@ -27,6 +27,15 @@ class ViewController: UIViewController, KotlinHelloSimpleStoreListener {
         dataSource = TodosDataSource(store: appStore)
         todos.dataSource = dataSource
         todos.delegate = dataSource
+
+        // Initialize Alert View
+        let alertView = UIAlertView(title: "Alert", message: KotlinHelloHello().greet(name: "SHARED"), delegate: self, cancelButtonTitle: "Bah", otherButtonTitles: "Cool")
+
+        // Configure Alert View
+        alertView.tag = 1
+
+        // Show Alert View
+        alertView.show()
     }
     
     override func viewDidAppear(_ animated: Bool) {

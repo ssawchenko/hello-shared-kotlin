@@ -12,9 +12,11 @@ import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import android.widget.CheckBox
 import android.widget.TextView
+import android.widget.Toast
 import com.willowtreeapps.hellokotlin.*
 
 val appStore = AppStore(AppDatabase())
+val sockets = SocketManager()
 
 class MainActivity : AppCompatActivity(), SimpleStore.Listener<AppState> {
 
@@ -32,6 +34,14 @@ class MainActivity : AppCompatActivity(), SimpleStore.Listener<AppState> {
         list.adapter = adapter
         ItemTouchHelper(adapter.itemTouchCallback).attachToRecyclerView(list)
         undoneTodoCount = findViewById(R.id.undone_todo_count)
+        Toast.makeText(this, Hello().greet("SHARED"), Toast.LENGTH_SHORT).show()
+
+        sockets.connect()
+    }
+
+    override fun onDestroy() {
+        sockets.disconnect()
+        super.onDestroy()
     }
 
     override fun onStart() {
@@ -41,6 +51,7 @@ class MainActivity : AppCompatActivity(), SimpleStore.Listener<AppState> {
 
     override fun onStop() {
         appStore.removeListener(this)
+
         super.onStop()
     }
 
