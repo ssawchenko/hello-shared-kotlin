@@ -35,6 +35,50 @@ socketManager_1.socketManager.io.on(event_1.IncomingEvents.connection, (s) => {
             socketManager_1.socketManager.sendError("Must join game before setting selection");
             return;
         }
+        if (matchManager_1.matchManager.match.selected !== undefined) {
+            log_1.log.verbose(event_1.IncomingEvents.guess, socket.username + " guessed " + selection);
+            socketManager_1.socketManager.sendGuessSet(socket.username);
+            const player = matchManager_1.matchManager.match.players.find(player => player.name === socket.username);
+            if (player === undefined) {
+                log_1.log.verbose(event_1.IncomingEvents.guess, "Couldn't find player with name " + socket.username);
+                return;
+            }
+            player.guess = selection;
+            log_1.log.verbose(event_1.IncomingEvents.guess, socket.username + " guessed correctly: " + (matchManager_1.matchManager.match.selected === selection));
+            // if (!matchManager.match.everyoneGuessed) {
+            //   log.verbose(IncomingEvents.guess, "Not everyone has guessed yet.");
+            //   // socketManager.sendResponse("test response!");
+            //   return;
+            // }
+            log_1.log.verbose(event_1.IncomingEvents.guess, "Everyone has guessed!");
+            const correctPlayers = matchManager_1.matchManager.match.players.filter(player => player.guess === matchManager_1.matchManager.match.selected);
+            if (correctPlayers === undefined || correctPlayers.length === 0) {
+                log_1.log.verbose(event_1.IncomingEvents.guess, "No winner");
+                socketManager_1.socketManager.sendResponse("No one guessed correctly! Correct answer was " + matchManager_1.matchManager.match.selected);
+                setTimeout(() => {
+                    const newMatch = new match_1.Match();
+                    newMatch.players = matchManager_1.matchManager.match.players;
+                    // for (let entry of someArray) {
+                    // }
+                    matchManager_1.matchManager.match = newMatch;
+                    for (let player of matchManager_1.matchManager.match.players) {
+                        player.guess = "";
+                    }
+                    socketManager_1.socketManager.sendResponse("New match started!");
+                }, 3000);
+                return;
+            }
+            const playerNames = correctPlayers.map(player => player.name);
+            log_1.log.verbose(event_1.IncomingEvents.guess, "winners: " + playerNames);
+            socketManager_1.socketManager.sendResponse("These players guessed " + matchManager_1.matchManager.match.selected + " correctly: " + playerNames);
+            setTimeout(() => {
+                socketManager_1.socketManager.sendResponse("New match started!");
+                const newMatch = new match_1.Match();
+                newMatch.players = matchManager_1.matchManager.match.players;
+                matchManager_1.matchManager.match = newMatch;
+            }, 3000);
+            return;
+        }
         log_1.log.verbose(event_1.IncomingEvents.selection, socket.username + " selected " + selection);
         matchManager_1.matchManager.match.selected = selection;
         socketManager_1.socketManager.sendSelectionSet(socket.username);
@@ -104,8 +148,18 @@ socketManager_1.socketManager.io.on(event_1.IncomingEvents.connection, (s) => {
     // DISCONNECT
     // ----------------------------------
     socket.onDisconnect((reason) => {
+        if (socket.username !== undefined) {
+            log_1.log.verbose(event_1.IncomingEvents.leave, socket.username + " leaving game");
+            socket.leave();
+        }
+        if (matchManager_1.matchManager.match === undefined) {
+            return;
+        }
+        matchManager_1.matchManager.match.players = matchManager_1.matchManager.match.players.filter(obj => obj.name !== socket.username);
         log_1.log.info(event_1.IncomingEvents.disconnect, "Number of connected users: " + --socket.numUsers);
+        var playernames = matchManager_1.matchManager.match.players.map(obj => obj.name);
+        log_1.log.verbose(event_1.IncomingEvents.join, "sending users out: " + playernames);
+        socketManager_1.socketManager.sendUsers(playernames);
         reason;
-        return;
     });
 });

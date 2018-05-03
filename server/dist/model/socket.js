@@ -56,6 +56,9 @@ class Socket {
     onSendGuess(handler) {
         this.socket.on(event_1.IncomingEvents.guess, handler);
     }
+    onRetry(handler) {
+        this.socket.on(event_1.IncomingEvents.retry, handler);
+    }
     /**
      * Called when a users sends an action to a match
      *

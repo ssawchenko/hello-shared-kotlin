@@ -17,6 +17,7 @@ var IncomingEvents;
     IncomingEvents["leave"] = "leave";
     IncomingEvents["connection"] = "connection";
     IncomingEvents["reconnected"] = "reconnected";
+    IncomingEvents["retry"] = "retry";
     IncomingEvents["disconnect"] = "disconnect";
 })(IncomingEvents = exports.IncomingEvents || (exports.IncomingEvents = {}));
 var OutGoingEvents;

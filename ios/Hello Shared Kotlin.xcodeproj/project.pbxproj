@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2347DFD8209BC254000A3F34 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347DFD7209BC254000A3F34 /* ViewControllerTwo.swift */; };
 		4EE4DF4A209B8AAB00F2D930 /* Pods_Hello_Shared_Kotlin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9F8C0E1116F423222DAE16 /* Pods_Hello_Shared_Kotlin.framework */; };
 		8519CAD01FFD9131001DB5AF /* KotlinHello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85869A9B1FEDA9CD00513796 /* KotlinHello.framework */; };
 		8519CAD2200FCC94001DB5AF /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8519CAD1200FCC94001DB5AF /* TodoTableViewCell.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		143878F7480F5A873D5D64C9 /* Pods-Hello Shared Kotlin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello Shared Kotlin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hello Shared Kotlin/Pods-Hello Shared Kotlin.debug.xcconfig"; sourceTree = "<group>"; };
+		2347DFD7209BC254000A3F34 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		4B9F8C0E1116F423222DAE16 /* Pods_Hello_Shared_Kotlin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_Shared_Kotlin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8519CAD1200FCC94001DB5AF /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 		8543766C203B36CF004CB092 /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				85869A771FEAFE9C00513796 /* Info.plist */,
 				8519CAD1200FCC94001DB5AF /* TodoTableViewCell.swift */,
 				8543766C203B36CF004CB092 /* AppDatabase.swift */,
+				2347DFD7209BC254000A3F34 /* ViewControllerTwo.swift */,
 			);
 			path = "Hello Shared Kotlin";
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 				85869A661FEAFE9C00513796 /* Resources */,
 				85869A991FEB21FC00513796 /* Embed Frameworks */,
 				D8D0DAB99FA7D0CA3B170B10 /* [CP] Embed Pods Frameworks */,
+				C3857BF7915227B866EE4C95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +225,21 @@
 			shellPath = /bin/sh;
 			shellScript = "cd .. && ./gradlew shared:copyFramework";
 		};
+		C3857BF7915227B866EE4C95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hello Shared Kotlin/Pods-Hello Shared Kotlin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D8D0DAB99FA7D0CA3B170B10 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,12 +248,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Hello Shared Kotlin/Pods-Hello Shared Kotlin-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -250,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2347DFD8209BC254000A3F34 /* ViewControllerTwo.swift in Sources */,
 				8519CAD2200FCC94001DB5AF /* TodoTableViewCell.swift in Sources */,
 				85869A6E1FEAFE9C00513796 /* ViewController.swift in Sources */,
 				8543766D203B36CF004CB092 /* AppDatabase.swift in Sources */,

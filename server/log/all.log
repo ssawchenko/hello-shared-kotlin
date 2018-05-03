@@ -1460,3 +1460,946 @@
 {"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T17:52:23.518Z"}
 {"level":"verbose","message":"[joinGame]: undefined:undefinedjoined game","timestamp":"2018-05-03T17:52:29.243Z"}
 {"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T17:52:36.053Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T22:15:20.580Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:15:21.160Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:15:25.364Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:17:09.618Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:17:09.654Z"}
+{"level":"verbose","message":"[join]: sending users out: Android","timestamp":"2018-05-03T22:17:09.654Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:17:09.673Z"}
+{"level":"verbose","message":"[join]: osx joined game","timestamp":"2018-05-03T22:17:13.932Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,osx","timestamp":"2018-05-03T22:17:13.933Z"}
+{"level":"verbose","message":"[join]: osx2 joined game","timestamp":"2018-05-03T22:17:22.353Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,osx,osx2","timestamp":"2018-05-03T22:17:22.353Z"}
+{"level":"verbose","message":"[leave]: Android leaving game","timestamp":"2018-05-03T22:17:27.679Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:17:27.683Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:17:27.755Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:17:27.782Z"}
+{"level":"verbose","message":"[join]: sending users out: osx,osx2,Android","timestamp":"2018-05-03T22:17:27.782Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:17:27.802Z"}
+{"level":"verbose","message":"[guess]: osx2 guessed blue","timestamp":"2018-05-03T22:17:35.271Z"}
+{"level":"verbose","message":"[guess]: osx2 guessed correctly: false","timestamp":"2018-05-03T22:17:35.272Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:17:35.273Z"}
+{"level":"verbose","message":"[guess]: osx2 guessed red","timestamp":"2018-05-03T22:17:40.155Z"}
+{"level":"verbose","message":"[guess]: osx2 guessed correctly: true","timestamp":"2018-05-03T22:17:40.156Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:17:40.156Z"}
+{"level":"verbose","message":"[leave]: osx2 leaving game","timestamp":"2018-05-03T22:17:51.244Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:18:52.800Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:18:53.806Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:22:40.641Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T22:35:05.554Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:35:07.430Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:35:08.972Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:35:40.158Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:35:40.218Z"}
+{"level":"verbose","message":"[join]: sending users out: Android","timestamp":"2018-05-03T22:35:40.218Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:35:40.239Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:35:47.260Z"}
+{"level":"verbose","message":"[selection]: Android selected yellow","timestamp":"2018-05-03T22:35:47.276Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:39:19.561Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:39:23.403Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:39:23.531Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android","timestamp":"2018-05-03T22:39:23.531Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:39:23.628Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:43:04.568Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T22:43:09.575Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS","timestamp":"2018-05-03T22:43:09.576Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:44:16.065Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:44:33.811Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:44:33.865Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android","timestamp":"2018-05-03T22:44:33.865Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:44:33.883Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:44:42.671Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:44:45.263Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:44:45.417Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:44:45.442Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android","timestamp":"2018-05-03T22:44:45.442Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:44:45.462Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:44:46.974Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:44:47.292Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:44:47.311Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android","timestamp":"2018-05-03T22:44:47.311Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:44:47.331Z"}
+{"level":"verbose","message":"[selection]: Android selected green","timestamp":"2018-05-03T22:44:47.893Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T22:44:48.344Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T22:44:48.517Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T22:44:48.647Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T22:44:48.750Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T22:45:06.017Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:45:08.180Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:45:08.184Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:45:08.223Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android","timestamp":"2018-05-03T22:45:08.223Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:45:08.251Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:45:08.785Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:45:08.794Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:45:08.811Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android","timestamp":"2018-05-03T22:45:08.812Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:45:08.841Z"}
+{"level":"verbose","message":"[selection]: Android selected green","timestamp":"2018-05-03T22:45:09.506Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:45:10.982Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:45:11.090Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:45:11.112Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android","timestamp":"2018-05-03T22:45:11.112Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:45:11.160Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:45:11.936Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:46:28.859Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:46:45.330Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:46:45.422Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android","timestamp":"2018-05-03T22:46:45.422Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:46:45.431Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T22:46:50.175Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:46:54.475Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:47:02.333Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:47:02.413Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android","timestamp":"2018-05-03T22:47:02.413Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:47:02.429Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T22:47:11.873Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T22:47:12.588Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T22:47:12.899Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:47:18.884Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:47:27.727Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:47:27.852Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android","timestamp":"2018-05-03T22:47:27.854Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:47:27.861Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:47:27.912Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:47:27.913Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:47:27.961Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android","timestamp":"2018-05-03T22:47:27.962Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:47:28.012Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:47:28.044Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:47:32.350Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:47:32.440Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android","timestamp":"2018-05-03T22:47:32.440Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:47:32.461Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:49:58.335Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:50:30.712Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:51:08.800Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T22:51:08.818Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,iOS","timestamp":"2018-05-03T22:51:08.818Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:52:27.609Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:52:27.674Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,iOS,Android","timestamp":"2018-05-03T22:52:27.675Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:52:27.688Z"}
+{"level":"verbose","message":"[selection]: Android selected yellow","timestamp":"2018-05-03T22:52:30.543Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:52:33.816Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:53:28.844Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T22:53:28.883Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,iOS,Android,iOS","timestamp":"2018-05-03T22:53:28.884Z"}
+{"level":"verbose","message":"[selection]: iOS selected red","timestamp":"2018-05-03T22:53:30.722Z"}
+{"level":"verbose","message":"[selection]: iOS selected yellow","timestamp":"2018-05-03T22:53:31.335Z"}
+{"level":"verbose","message":"[selection]: iOS selected green","timestamp":"2018-05-03T22:53:31.836Z"}
+{"level":"verbose","message":"[selection]: iOS selected blue","timestamp":"2018-05-03T22:53:32.234Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:53:33.182Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:53:33.253Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:53:33.307Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,iOS,Android,iOS,Android","timestamp":"2018-05-03T22:53:33.307Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:53:33.324Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:53:34.182Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:53:34.241Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:53:34.264Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,iOS,Android,iOS,Android,Android","timestamp":"2018-05-03T22:53:34.264Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:53:34.387Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:53:35.335Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:53:35.416Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:53:35.445Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,iOS,Android,iOS,Android,Android,Android","timestamp":"2018-05-03T22:53:35.445Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:53:35.463Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:54:05.662Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:54:29.446Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:54:29.494Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,iOS,Android,iOS,Android,Android,Android,Android","timestamp":"2018-05-03T22:54:29.494Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:54:29.513Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:54:30.049Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:54:30.063Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:54:30.084Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,iOS,Android,iOS,Android,Android,Android,Android,Android","timestamp":"2018-05-03T22:54:30.084Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:54:30.113Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T22:54:30.427Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:54:31.090Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:54:31.164Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:54:31.195Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,iOS,Android,iOS,Android,Android,Android,Android,Android,Android","timestamp":"2018-05-03T22:54:31.195Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:54:31.214Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:54:46.723Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:55:01.298Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:55:01.408Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,Android,iOS,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,Android,iOS,Android,iOS,Android,Android,Android,Android,Android,Android,Android","timestamp":"2018-05-03T22:55:01.408Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T22:55:01.424Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T22:55:25.365Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:55:26.333Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:55:27.619Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T22:55:27.634Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T22:55:27.634Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:55:27.854Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:55:29.274Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T22:55:40.451Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:55:42.254Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:55:43.593Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T22:55:43.607Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T22:55:43.607Z"}
+{"level":"verbose","message":"[selection]: iOS selected red","timestamp":"2018-05-03T22:55:43.652Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:55:44.278Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:55:44.710Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T22:55:45.554Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T22:55:45.555Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:55:45.555Z"}
+{"level":"verbose","message":"[selection]: user attempted to set selection before joining","timestamp":"2018-05-03T22:55:52.634Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:56:16.743Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:56:25.517Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:56:25.602Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android","timestamp":"2018-05-03T22:56:25.602Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T22:56:25.634Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T22:56:25.635Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:56:25.635Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T22:56:27.942Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T22:56:27.943Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:56:27.943Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:57:41.288Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T22:58:33.297Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:58:48.317Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T22:58:48.370Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android,iOS","timestamp":"2018-05-03T22:58:48.370Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:58:50.006Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T22:58:50.130Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android,iOS,Android","timestamp":"2018-05-03T22:58:50.130Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T22:58:50.150Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T22:58:50.150Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:58:50.151Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T22:58:52.178Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T22:58:52.178Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:58:52.179Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T22:58:53.553Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T22:58:53.553Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:58:53.554Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T22:58:56.736Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T22:58:56.737Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:58:56.737Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T22:58:57.499Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T22:58:57.500Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:58:57.500Z"}
+{"level":"verbose","message":"[guess]: iOS guessed yellow","timestamp":"2018-05-03T22:58:58.422Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T22:58:58.422Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:58:58.422Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T22:58:58.878Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T22:58:58.879Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:58:58.879Z"}
+{"level":"verbose","message":"[guess]: iOS guessed green","timestamp":"2018-05-03T22:58:59.311Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T22:58:59.312Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:58:59.312Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T22:59:00.099Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T22:59:00.100Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:00.100Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T22:59:00.873Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T22:59:00.874Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:00.874Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T22:59:01.085Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T22:59:01.086Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:01.086Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T22:59:05.835Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T22:59:05.836Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:05.836Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T22:59:06.633Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T22:59:06.634Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:06.634Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T22:59:07.313Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T22:59:07.314Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:07.314Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T22:59:07.498Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T22:59:07.499Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:07.499Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T22:59:07.664Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T22:59:07.665Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:07.665Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T22:59:07.834Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T22:59:07.834Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:07.835Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T22:59:07.987Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T22:59:07.988Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:07.988Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T22:59:08.138Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T22:59:08.139Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:08.139Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T22:59:08.289Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T22:59:08.290Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:08.290Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T22:59:08.446Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T22:59:08.448Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:08.449Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T22:59:22.226Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:59:24.185Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T22:59:24.198Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T22:59:24.198Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:59:24.279Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:59:24.425Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T22:59:25.867Z"}
+{"level":"verbose","message":"[selection]: iOS selected blue","timestamp":"2018-05-03T22:59:32.139Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T22:59:32.987Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T22:59:32.988Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:32.988Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T22:59:33.904Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T22:59:33.905Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:33.905Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T22:59:34.078Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T22:59:34.079Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:34.079Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T22:59:34.243Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T22:59:34.244Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T22:59:34.244Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T23:00:18.676Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:00:21.046Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:00:21.059Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:00:21.059Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:00:21.170Z"}
+{"level":"verbose","message":"[selection]: iOS selected red","timestamp":"2018-05-03T23:00:22.302Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:00:22.705Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:00:22.804Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:01:05.330Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:01:16.384Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:01:16.403Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS","timestamp":"2018-05-03T23:01:16.403Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T23:01:18.633Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T23:01:18.634Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:01:18.634Z"}
+{"level":"verbose","message":"[guess]: winners: iOS","timestamp":"2018-05-03T23:01:18.634Z"}
+{"level":"verbose","message":"[guess]: iOS guessed green","timestamp":"2018-05-03T23:01:26.289Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:01:26.290Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:01:26.290Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:01:26.290Z"}
+{"level":"verbose","message":"[guess]: iOS guessed green","timestamp":"2018-05-03T23:01:27.283Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:01:27.283Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:01:27.284Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:01:27.284Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T23:01:28.248Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:01:28.249Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:01:28.249Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:01:28.249Z"}
+{"level":"verbose","message":"[guess]: iOS guessed yellow","timestamp":"2018-05-03T23:01:28.917Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:01:28.917Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:01:28.917Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:01:28.917Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T23:01:29.731Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T23:01:29.732Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:01:29.732Z"}
+{"level":"verbose","message":"[guess]: winners: iOS","timestamp":"2018-05-03T23:01:29.732Z"}
+{"level":"verbose","message":"[join]: dog joined game","timestamp":"2018-05-03T23:01:58.778Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog","timestamp":"2018-05-03T23:01:58.778Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:02:36.387Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:03:06.388Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:03:45.644Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:03:45.657Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS","timestamp":"2018-05-03T23:03:45.657Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:03:57.366Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:04:07.573Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:04:07.607Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS","timestamp":"2018-05-03T23:04:07.607Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:04:22.382Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:04:32.266Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:04:32.304Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS","timestamp":"2018-05-03T23:04:32.304Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:04:37.218Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:04:37.288Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS,Android","timestamp":"2018-05-03T23:04:37.289Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:04:37.307Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:04:37.307Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:04:37.307Z"}
+{"level":"verbose","message":"[join]: dog joined game","timestamp":"2018-05-03T23:04:44.507Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS,Android,dog","timestamp":"2018-05-03T23:04:44.507Z"}
+{"level":"verbose","message":"[join]: dog joined game","timestamp":"2018-05-03T23:04:55.032Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS,Android,dog,dog","timestamp":"2018-05-03T23:04:55.032Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:05:17.214Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:05:27.193Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:05:27.226Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS,Android,dog,dog,iOS","timestamp":"2018-05-03T23:05:27.226Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:05:53.610Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:06:02.304Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:06:05.153Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:06:05.172Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS,Android,dog,dog,iOS,iOS","timestamp":"2018-05-03T23:06:05.172Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:06:12.221Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:06:12.340Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS,Android,dog,dog,iOS,iOS,Android","timestamp":"2018-05-03T23:06:12.340Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:06:12.368Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:06:12.368Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:06:12.368Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T23:06:13.254Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T23:06:13.254Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:06:13.254Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T23:06:14.215Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T23:06:14.216Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:06:14.216Z"}
+{"level":"verbose","message":"[guess]: iOS guessed yellow","timestamp":"2018-05-03T23:06:14.719Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:06:14.719Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:06:14.719Z"}
+{"level":"verbose","message":"[guess]: iOS guessed green","timestamp":"2018-05-03T23:06:15.157Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:06:15.158Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:06:15.158Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T23:06:15.588Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:06:15.589Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:06:15.589Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:06:20.704Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:06:20.705Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:06:20.705Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:06:20.705Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:06:20.706Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:06:20.706Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:06:47.495Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:07:03.621Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:07:03.688Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS,Android,dog,dog,iOS,iOS,Android,Android","timestamp":"2018-05-03T23:07:03.689Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:07:03.702Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:07:03.702Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:03.702Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:07:04.544Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:04.546Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:04.546Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:07:05.153Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:05.154Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:05.154Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:06.312Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:06.313Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:06.313Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:06.486Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:06.486Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:06.486Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:06.925Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:06.927Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:06.928Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:07.104Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:07.104Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:07.105Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:07.224Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:07.225Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:07.225Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:07.385Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:07.386Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:07.386Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:07.507Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:07.508Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:07.508Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:07.632Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:07.633Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:07.633Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:07.759Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:07.760Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:07.760Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:07.879Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:07.879Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:07.879Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:08.024Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:08.024Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:08.025Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:08.163Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:08.164Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:08.164Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:08.275Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:08.275Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:08.276Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:08.427Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:08.428Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:08.428Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:08.566Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:08.566Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:08.566Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:08.695Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:08.697Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:08.697Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:07:24.234Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:07:24.235Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:07:24.235Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:08:49.236Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:09:18.833Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:09:18.894Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS,Android,dog,dog,iOS,iOS,Android,Android,Android","timestamp":"2018-05-03T23:09:18.895Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:09:18.921Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:09:18.922Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:09:18.922Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:09:24.303Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:09:24.303Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:09:24.303Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:09:24.329Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:09:24.329Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:09:24.329Z"}
+{"level":"verbose","message":"[leave]: Android leaving game","timestamp":"2018-05-03T23:09:24.401Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:09:24.409Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:10:05.823Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:10:05.901Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS,dog,dog,iOS,iOS,Android","timestamp":"2018-05-03T23:10:05.902Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:10:05.916Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:10:05.916Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:05.916Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:10:07.028Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:07.029Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:07.029Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:10:07.951Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:07.952Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:07.952Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:10:09.171Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:09.172Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:09.172Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:10:12.243Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:12.244Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:12.244Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:10:13.165Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:13.165Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:13.166Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:10:13.775Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:13.775Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:13.776Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:10:14.636Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:14.636Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:14.637Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:10:14.711Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:14.712Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:14.714Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:10:15.623Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:15.623Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:15.624Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:10:16.544Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:16.545Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:16.545Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:10:18.694Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:18.695Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:18.695Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:10:26.682Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:10:42.867Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:10:42.921Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS,dog,dog,iOS,iOS,Android,Android","timestamp":"2018-05-03T23:10:42.922Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:10:42.950Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:10:42.951Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:42.951Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:10:45.113Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:45.114Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:45.114Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:10:47.073Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:10:47.074Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:47.074Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:10:50.151Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:10:56.695Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:10:59.326Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:10:59.383Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS,dog,dog,iOS,iOS,Android,Android,Android","timestamp":"2018-05-03T23:10:59.383Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:10:59.421Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:10:59.421Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:10:59.421Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:11:07.328Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:11:07.354Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,iOS,dog,iOS,iOS,iOS,dog,dog,iOS,iOS,Android,Android,Android,iOS","timestamp":"2018-05-03T23:11:07.354Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T23:11:08.643Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T23:11:08.644Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:11:08.644Z"}
+{"level":"verbose","message":"[guess]: iOS guessed yellow","timestamp":"2018-05-03T23:11:09.394Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:11:09.395Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:11:09.395Z"}
+{"level":"verbose","message":"[guess]: iOS guessed green","timestamp":"2018-05-03T23:11:10.071Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:11:10.072Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:11:10.072Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T23:11:10.482Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:11:10.483Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:11:10.483Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T23:11:37.966Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:11:38.231Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:11:40.311Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:11:40.325Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:11:40.325Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:11:41.179Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:11:42.568Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:11:42.624Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android","timestamp":"2018-05-03T23:11:42.625Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T23:11:42.643Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T23:11:45.310Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T23:11:45.311Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:11:45.311Z"}
+{"level":"verbose","message":"[guess]: winners: iOS","timestamp":"2018-05-03T23:11:45.311Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:11:50.721Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:11:50.721Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:11:50.721Z"}
+{"level":"verbose","message":"[leave]: Android leaving game","timestamp":"2018-05-03T23:11:52.947Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:11:52.947Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:12:01.615Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:12:01.685Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android,Android","timestamp":"2018-05-03T23:12:01.686Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:12:01.712Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:12:01.714Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:12:01.714Z"}
+{"level":"verbose","message":"[guess]: winners: iOS,Android","timestamp":"2018-05-03T23:12:01.715Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T23:12:51.999Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:12:54.836Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:12:55.885Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:12:56.046Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:12:56.076Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:12:56.076Z"}
+{"level":"verbose","message":"[selection]: iOS selected red","timestamp":"2018-05-03T23:12:57.337Z"}
+{"level":"verbose","message":"[guess]: iOS guessed yellow","timestamp":"2018-05-03T23:12:59.877Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:12:59.878Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:12:59.878Z"}
+{"level":"verbose","message":"[guess]: iOS guessed green","timestamp":"2018-05-03T23:13:01.096Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:13:01.097Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:13:01.097Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T23:13:01.736Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:13:01.737Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:13:01.737Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:13:01.827Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:13:01.889Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android","timestamp":"2018-05-03T23:13:01.889Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T23:13:02.766Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T23:13:02.767Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:13:02.767Z"}
+{"level":"verbose","message":"[guess]: winners: iOS","timestamp":"2018-05-03T23:13:02.767Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:13:12.572Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:13:12.573Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:13:12.574Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T23:13:14.371Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T23:13:14.372Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:13:14.372Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:13:26.397Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:13:26.397Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:13:26.397Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T23:13:31.925Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:13:31.926Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:13:31.926Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T23:13:47.041Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:13:50.739Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:13:51.052Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:13:51.066Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:13:51.066Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:13:51.462Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:13:51.786Z"}
+{"level":"verbose","message":"[selection]: iOS selected yellow","timestamp":"2018-05-03T23:13:57.531Z"}
+{"level":"verbose","message":"[selection]: user attempted to set selection before joining","timestamp":"2018-05-03T23:14:03.569Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:14:08.965Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:14:08.966Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:14:18.623Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:14:19.009Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android","timestamp":"2018-05-03T23:14:19.009Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:14:26.233Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:14:26.234Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:14:26.234Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:14:26.234Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:14:31.524Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:14:31.525Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:14:31.525Z"}
+{"level":"verbose","message":"[guess]: winners: Android","timestamp":"2018-05-03T23:14:31.525Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:14:33.364Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:14:33.365Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:14:33.365Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:14:33.366Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:14:34.505Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:14:34.505Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:14:34.505Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:14:34.506Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:14:35.823Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:14:35.824Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:14:35.824Z"}
+{"level":"verbose","message":"[guess]: winners: Android","timestamp":"2018-05-03T23:14:35.824Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:14:39.819Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:14:39.820Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:14:39.820Z"}
+{"level":"verbose","message":"[guess]: winners: Android","timestamp":"2018-05-03T23:14:39.821Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:14:42.766Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:14:42.766Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:14:42.766Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:14:42.767Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:14:48.733Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:14:48.734Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:14:48.734Z"}
+{"level":"verbose","message":"[guess]: winners: Android","timestamp":"2018-05-03T23:14:48.734Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:14:51.491Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:14:51.491Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:14:51.491Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:14:51.491Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:14:52.833Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:14:52.834Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:14:52.834Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:14:52.834Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:14:54.502Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:14:54.503Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:14:54.504Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:14:54.504Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:14:55.751Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:14:55.751Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:14:55.752Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:14:55.752Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:15:05.009Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:15:05.009Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:15:05.009Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:15:05.009Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:15:08.388Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:15:08.389Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:15:08.389Z"}
+{"level":"verbose","message":"[guess]: winners: Android","timestamp":"2018-05-03T23:15:08.389Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:15:45.253Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:15:45.254Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:15:45.254Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:15:45.254Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:15:46.984Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:15:46.985Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:15:46.985Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:15:46.985Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:15:48.666Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:15:48.667Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:15:48.667Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:15:48.667Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:15:51.397Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:15:51.398Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:15:51.398Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:15:51.399Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:16:34.916Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:16:34.917Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:16:34.917Z"}
+{"level":"verbose","message":"[guess]: winners: Android","timestamp":"2018-05-03T23:16:34.917Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T23:17:05.284Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:17:07.561Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:17:07.574Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:17:07.574Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:17:08.207Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:17:09.877Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:17:09.878Z"}
+{"level":"verbose","message":"[join]: dog joined game","timestamp":"2018-05-03T23:17:12.693Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,dog","timestamp":"2018-05-03T23:17:12.693Z"}
+{"level":"verbose","message":"[selection]: iOS selected red","timestamp":"2018-05-03T23:17:21.695Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T23:18:06.176Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:18:10.292Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:18:10.305Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:18:10.306Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:18:10.494Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:18:10.561Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:18:10.672Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:20:31.570Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:20:31.570Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:20:47.272Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:20:47.323Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android","timestamp":"2018-05-03T23:20:47.323Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T23:20:48.465Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T23:20:58.446Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: true","timestamp":"2018-05-03T23:20:58.447Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:20:58.447Z"}
+{"level":"verbose","message":"[guess]: winners: iOS","timestamp":"2018-05-03T23:20:58.448Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T23:21:06.942Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:21:07.092Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:21:09.476Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:21:09.495Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:21:09.495Z"}
+{"level":"verbose","message":"[selection]: iOS selected red","timestamp":"2018-05-03T23:21:10.713Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:21:11.654Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:21:23.827Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:21:23.889Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android","timestamp":"2018-05-03T23:21:23.889Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:21:26.864Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:21:26.865Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:21:26.865Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:21:26.865Z"}
+{"level":"verbose","message":"[selection]: Android selected green","timestamp":"2018-05-03T23:21:34.851Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T23:21:53.823Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:21:55.383Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:21:57.315Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:21:57.709Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:21:57.723Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:21:57.723Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:21:58.505Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:22:03.121Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:22:03.121Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:22:12.651Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:22:12.698Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android","timestamp":"2018-05-03T23:22:12.698Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T23:22:28.613Z"}
+{"level":"verbose","message":"[guess]: iOS guessed yellow","timestamp":"2018-05-03T23:22:32.425Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:22:32.426Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:22:32.426Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:22:32.426Z"}
+{"level":"verbose","message":"[selection]: Android selected green","timestamp":"2018-05-03T23:22:39.401Z"}
+{"level":"verbose","message":"[leave]: Android leaving game","timestamp":"2018-05-03T23:23:04.843Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:23:04.843Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android","timestamp":"2018-05-03T23:23:04.843Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:23:22.540Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:23:22.585Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android,Android","timestamp":"2018-05-03T23:23:22.585Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:23:24.415Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:23:24.415Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:23:24.415Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:23:24.416Z"}
+{"level":"verbose","message":"[selection]: iOS selected red","timestamp":"2018-05-03T23:23:28.451Z"}
+{"level":"verbose","message":"[leave]: Android leaving game","timestamp":"2018-05-03T23:24:10.658Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:24:10.659Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android,Android","timestamp":"2018-05-03T23:24:10.659Z"}
+{"level":"verbose","message":"[leave]: iOS leaving game","timestamp":"2018-05-03T23:24:23.926Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:24:23.927Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android,Android","timestamp":"2018-05-03T23:24:23.927Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:24:27.642Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:24:27.698Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android,Android,Android","timestamp":"2018-05-03T23:24:27.698Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:24:27.737Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:24:27.738Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:27.738Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:24:42.858Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:24:42.886Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android,Android,Android,iOS","timestamp":"2018-05-03T23:24:42.886Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T23:24:45.367Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:24:45.368Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:45.368Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T23:24:51.292Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:24:51.293Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:51.293Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T23:24:51.716Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:24:51.716Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:51.716Z"}
+{"level":"verbose","message":"[guess]: iOS guessed yellow","timestamp":"2018-05-03T23:24:52.140Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:24:52.141Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:52.141Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T23:24:52.826Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:24:52.826Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:52.826Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:24:55.149Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:24:55.150Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:55.150Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:24:55.762Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:24:55.764Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:55.764Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:24:56.120Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:24:56.121Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:56.121Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:24:56.379Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:24:56.380Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:56.380Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:24:56.546Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:24:56.547Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:56.547Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:24:56.708Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:24:56.709Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:56.709Z"}
+{"level":"verbose","message":"[leave]: iOS leaving game","timestamp":"2018-05-03T23:24:56.880Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:24:56.880Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android,Android,Android,iOS","timestamp":"2018-05-03T23:24:56.880Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:24:56.900Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:24:56.900Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:24:56.900Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:25:06.019Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:25:06.061Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android,Android,Android,iOS,iOS","timestamp":"2018-05-03T23:25:06.061Z"}
+{"level":"verbose","message":"[leave]: Android leaving game","timestamp":"2018-05-03T23:25:11.126Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:25:11.126Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android,Android,Android,iOS,iOS","timestamp":"2018-05-03T23:25:11.126Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T23:25:26.107Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:25:26.221Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:25:27.109Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:25:27.201Z"}
+{"level":"verbose","message":"[join]: sending users out: Android","timestamp":"2018-05-03T23:25:27.201Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:25:28.686Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:25:29.784Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:25:29.797Z"}
+{"level":"verbose","message":"[join]: sending users out: Android,iOS","timestamp":"2018-05-03T23:25:29.798Z"}
+{"level":"verbose","message":"[selection]: iOS selected yellow","timestamp":"2018-05-03T23:25:33.915Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:25:35.700Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:25:35.700Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:25:35.701Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:25:35.701Z"}
+{"level":"verbose","message":"[selection]: iOS selected blue","timestamp":"2018-05-03T23:25:39.941Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:25:40.555Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:25:40.556Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:25:40.556Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:25:40.556Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T23:25:46.759Z"}
+{"level":"verbose","message":"[guess]: iOS guessed yellow","timestamp":"2018-05-03T23:25:47.552Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:25:47.552Z"}
+{"level":"verbose","message":"[guess]: Not everyone has guessed yet.","timestamp":"2018-05-03T23:25:47.553Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T23:26:23.749Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:26:25.757Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:26:26.577Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:26:26.590Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:26:26.591Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:26:27.316Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:26:28.188Z"}
+{"level":"verbose","message":"[selection]: iOS selected yellow","timestamp":"2018-05-03T23:26:30.889Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:26:34.536Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:26:34.537Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:26:45.551Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:26:45.632Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android","timestamp":"2018-05-03T23:26:45.632Z"}
+{"level":"verbose","message":"[guess]: Android guessed green","timestamp":"2018-05-03T23:26:51.886Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:26:51.888Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:26:51.888Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:26:51.888Z"}
+{"level":"verbose","message":"[selection]: Android selected yellow","timestamp":"2018-05-03T23:26:55.880Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T23:26:57.247Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:26:57.248Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:26:57.248Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:26:57.248Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T23:27:01.307Z"}
+{"level":"verbose","message":"[guess]: iOS guessed green","timestamp":"2018-05-03T23:27:04.707Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:27:04.707Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:27:04.708Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:27:04.708Z"}
+{"level":"verbose","message":"[selection]: Android selected yellow","timestamp":"2018-05-03T23:27:08.662Z"}
+{"level":"verbose","message":"[guess]: iOS guessed blue","timestamp":"2018-05-03T23:27:09.724Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:27:09.725Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:27:09.725Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:27:09.725Z"}
+{"level":"verbose","message":"[selection]: Android selected green","timestamp":"2018-05-03T23:27:13.697Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T23:27:14.362Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:27:14.363Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:27:14.363Z"}
+{"level":"verbose","message":"[guess]: winners: Android","timestamp":"2018-05-03T23:27:14.364Z"}
+{"level":"verbose","message":"[selection]: iOS selected red","timestamp":"2018-05-03T23:27:23.824Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:27:27.330Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:27:27.330Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:27:27.330Z"}
+{"level":"verbose","message":"[guess]: winners: iOS,Android","timestamp":"2018-05-03T23:27:27.330Z"}
+{"level":"verbose","message":"[selection]: Android selected blue","timestamp":"2018-05-03T23:27:33.051Z"}
+{"level":"verbose","message":"[guess]: iOS guessed yellow","timestamp":"2018-05-03T23:27:34.991Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:27:34.992Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:27:34.992Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:27:34.992Z"}
+{"level":"verbose","message":"[selection]: iOS selected yellow","timestamp":"2018-05-03T23:27:41.437Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:27:43.019Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:27:43.019Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:27:43.019Z"}
+{"level":"verbose","message":"[guess]: winners: iOS,Android","timestamp":"2018-05-03T23:27:43.020Z"}
+{"level":"verbose","message":"[leave]: Android leaving game","timestamp":"2018-05-03T23:29:11.075Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:29:11.076Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android","timestamp":"2018-05-03T23:29:11.076Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:29:13.728Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:29:13.780Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android,Android","timestamp":"2018-05-03T23:29:13.780Z"}
+{"level":"info","message":"[App]: Server listening at port 3000","timestamp":"2018-05-03T23:29:49.229Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:29:50.833Z"}
+{"level":"verbose","message":"[join]: iOS joined game","timestamp":"2018-05-03T23:29:50.848Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:29:50.848Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:29:50.850Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:29:52.352Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:29:53.308Z"}
+{"level":"verbose","message":"[selection]: iOS selected yellow","timestamp":"2018-05-03T23:29:54.813Z"}
+{"level":"verbose","message":"[selection]: user attempted to set selection before joining","timestamp":"2018-05-03T23:30:06.960Z"}
+{"level":"info","message":"[disconnect]: Number of connected users: 0","timestamp":"2018-05-03T23:30:12.855Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS","timestamp":"2018-05-03T23:30:12.856Z"}
+{"level":"verbose","message":"[connection]: Number of connected users: 1","timestamp":"2018-05-03T23:30:18.439Z"}
+{"level":"verbose","message":"[join]: Android joined game","timestamp":"2018-05-03T23:30:18.501Z"}
+{"level":"verbose","message":"[join]: sending users out: iOS,Android","timestamp":"2018-05-03T23:30:18.501Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:30:20.407Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:30:20.408Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:30:20.408Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:30:20.408Z"}
+{"level":"verbose","message":"[selection]: Android selected red","timestamp":"2018-05-03T23:30:24.989Z"}
+{"level":"verbose","message":"[guess]: iOS guessed green","timestamp":"2018-05-03T23:30:25.799Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:30:25.800Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:30:25.800Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:30:25.800Z"}
+{"level":"verbose","message":"[selection]: Android selected yellow","timestamp":"2018-05-03T23:30:29.674Z"}
+{"level":"verbose","message":"[guess]: iOS guessed red","timestamp":"2018-05-03T23:30:30.973Z"}
+{"level":"verbose","message":"[guess]: iOS guessed correctly: false","timestamp":"2018-05-03T23:30:30.974Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:30:30.974Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:30:30.974Z"}
+{"level":"verbose","message":"[selection]: iOS selected blue","timestamp":"2018-05-03T23:30:34.392Z"}
+{"level":"verbose","message":"[guess]: Android guessed blue","timestamp":"2018-05-03T23:30:36.519Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: true","timestamp":"2018-05-03T23:30:36.520Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:30:36.520Z"}
+{"level":"verbose","message":"[guess]: winners: Android","timestamp":"2018-05-03T23:30:36.520Z"}
+{"level":"verbose","message":"[selection]: iOS selected green","timestamp":"2018-05-03T23:30:40.027Z"}
+{"level":"verbose","message":"[guess]: Android guessed red","timestamp":"2018-05-03T23:30:41.397Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:30:41.398Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:30:41.398Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:30:41.398Z"}
+{"level":"verbose","message":"[selection]: iOS selected red","timestamp":"2018-05-03T23:30:45.108Z"}
+{"level":"verbose","message":"[guess]: Android guessed yellow","timestamp":"2018-05-03T23:30:46.678Z"}
+{"level":"verbose","message":"[guess]: Android guessed correctly: false","timestamp":"2018-05-03T23:30:46.678Z"}
+{"level":"verbose","message":"[guess]: Everyone has guessed!","timestamp":"2018-05-03T23:30:46.678Z"}
+{"level":"verbose","message":"[guess]: No winner","timestamp":"2018-05-03T23:30:46.678Z"}

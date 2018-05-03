@@ -69,6 +69,10 @@ export class Socket {
     this.socket.on(IncomingEvents.guess, handler);
   }
 
+  public onRetry(handler: () => void): void {
+    this.socket.on(IncomingEvents.retry, handler);
+  }
+
   /**
    * Called when a users sends an action to a match
    *

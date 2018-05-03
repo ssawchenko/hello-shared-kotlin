@@ -15,6 +15,7 @@ export enum IncomingEvents {
   leave = "leave",
   connection = "connection",
   reconnected = "reconnected",
+  retry = "retry",
   disconnect = "disconnect"
 }
 
