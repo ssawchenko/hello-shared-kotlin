@@ -12,6 +12,7 @@ dependencies {
 apply plugin: 'konan'
 
 konan.targets = ['iphone', 'iphone_sim']
+//konan.targets = ['ios_x64', 'ios_arm64']
 
 def frameworkName = 'KotlinHello'
 
@@ -21,8 +22,10 @@ konanArtifacts {
 
 task lipo(type: Exec, dependsOn: 'build') {
     def frameworks = files(
-            "$buildDir/konan/bin/iphone/${frameworkName}.framework/$frameworkName",
-            "$buildDir/konan/bin/iphone_sim/${frameworkName}.framework/$frameworkName"
+//            "$buildDir/konan/bin/iphone/${frameworkName}.framework/$frameworkName",
+//            "$buildDir/konan/bin/iphone_sim/${frameworkName}.framework/$frameworkName"
+            "$buildDir/konan/bin/ios_x64/${frameworkName}.framework/$frameworkName",
+            "$buildDir/konan/bin/ios_arm64/${frameworkName}.framework/$frameworkName"
     )
     def output = file("$buildDir/konan/bin/iphone_universal/${frameworkName}.framework/$frameworkName")
     inputs.files frameworks
@@ -33,7 +36,8 @@ task lipo(type: Exec, dependsOn: 'build') {
 }
 
 task copyFramework(type: Copy, dependsOn: lipo) {
-    from("$buildDir/konan/bin/iphone") {
+    //from("$buildDir/konan/bin/iphone") {
+    from("$buildDir/konan/bin/ios_x64") {
         include '*/Headers/*'
         include '*/Modules/*'
         include '*/Info.plist'
